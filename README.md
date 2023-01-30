@@ -1,2 +1,2 @@
-# MART341-WebDesign
+# Kooper Bott MART341-WebDesign
 Repository for my Introduction to Web Design &amp; Development Homework.
