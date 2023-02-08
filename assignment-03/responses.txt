@@ -1,0 +1,3 @@
+The IP address and DNS are essentially related to each other in the sense that they get you where you need to go on the internet. The IP address is a numerical address assigned to any server so it can be identified on any given network. A DNS is an IP address but in an alphabetical address. This is because it is easier to remember names rather than a sequence of numbers.
+A cookie is a piece of information from a website that is stored in the web browser that the website can look at to remember the browser history.
+The three essential parts of a URL are the protocol, the domain name, and the path.
