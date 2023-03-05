@@ -5,4 +5,4 @@ The website was very unoragnized and you had to rent each movie you wanted to wa
 The website was basic colors and did not include images of the movie title you were searching for. 
 Netflix today is and instantaneous way to watch shows and movies with a click of a buttom. It is colorful and includeds many pictures of what show you are wanting to watch. You no longer rent a moie online and recieve a disc in the mail. You recieve access to the movie instantly. It is definietly updated from 1999. 
 
-![Screenshot](.images/Assignment05-screenshot.jpg)
+![screenshot](./images/Assignment05-screenshot.jpg)
