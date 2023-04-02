@@ -1,0 +1,59 @@
+body {
+    background-color: #5377A6;
+    font-family: Franklin Gothic Medium;
+    text-align: center;
+}
+
+div {
+    border: 5px solid #060f44; 
+    display: inline-block; 
+}
+
+img {
+    border-radius: 50%;
+    border: 8px solid #060f44;
+}
+
+.inspiration {
+    background-color: #BFBB7E;
+}
+
+#title {
+    font-size: 45px;
+    background-color: #BFBB7E;
+    color: #20308C;
+    margin: auto;
+    padding: 20px;
+}
+
+.palette {
+    background-color: rgb(245, 245, 250);
+    width: 800px;
+}
+.dot {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot.one {
+    background-color: #BFBB7E;
+}
+
+.dot.two {
+    background-color: #BFA72C;
+}
+
+.dot.three {
+    background-color:#5377A6;
+}
+
+.dot.four {
+
+    background-color: #2E468C;
+}
+
+.dot.five {
+    background-color: #20308C;
+}
