@@ -1,0 +1,80 @@
+#header{
+    background-image: url("../images/baxter-horse.png");
+}
+
+h1{
+    color: rgb(9, 8, 0);
+    font-family: Merriweather;
+    font-size: 120px;
+    letter-spacing: 0.3em;
+}
+
+#title:hover{
+    letter-spacing: .5em;
+    font-weight: 1000;
+    color: #8d0a19;
+}
+
+.titleBorder{
+    height: 200px;
+    background-color: rgb(236, 228, 150);
+    color: rgb(1, 0, 11);
+}
+
+.titleBorder:hover{
+    background-color: #8d0a19;
+    color: rgb(236, 228, 150);
+    text-indent: 7em;
+    font-family: Merriweather;
+}
+
+.subtitle{
+    padding-top: 50px;
+    font-size: 75px;
+    margin: auto;
+}
+
+.content-paragraph{
+    margin: auto;
+    color: #333;
+    font-size: 25px;
+    line-height: 30px;
+    max-width: 500px;
+    text-align: center;
+    font-family: Quicksand;
+}
+
+.content-paragraph:first-line{
+    font-size: 50px;
+    font-family: Quicksand;
+    line-height: 60px;
+}
+
+.poem-link{
+    text-decoration: none;
+    color: #630b17;
+}
+.poem-link:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.poem-link:visited{
+    color: #cf3144;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-left: 300px;
+}
+
+img {
+    border: 10px solid #09134a;
+}
+
+#img-link:hover{
+    border: 15px solid #09134a;
+}
