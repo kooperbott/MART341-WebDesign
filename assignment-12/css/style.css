@@ -1,0 +1,177 @@
+#header{
+    background-image: url("../images/baxter-horse.png");
+}
+
+h1{
+    color: rgb(9, 8, 0);
+    font-family: Merriweather;
+    font-size: 120px;
+    letter-spacing: 0.3em;
+}
+
+#title:hover{
+    letter-spacing: .5em;
+    font-weight: 1000;
+    color: #8d0a19;
+}
+
+.titleBorder{
+    height: 200px;
+    background-color: rgb(236, 228, 150);
+    color: rgb(1, 0, 11);
+    width: 100%;
+    overflow: auto;
+}
+
+.titleBorder:hover{
+    background-color: #8d0a19;
+    color: rgb(236, 228, 150);
+    text-indent: 7em;
+    font-family: Merriweather;
+}
+
+.subtitle{
+    padding-top: 50px;
+    font-size: 75px;
+    margin: auto;
+}
+
+.content-paragraph{
+    margin: auto;
+    color: #333;
+    font-size: 25px;
+    line-height: 30px;
+    max-width: 500px;
+    text-align: center;
+    font-family: Quicksand;
+}
+
+.content-paragraph::first-line{
+    font-size: 50px;
+    font-family: Quicksand;
+    line-height: 60px;
+}
+
+.poem-link{
+    text-decoration: none;
+    color: #630b17;
+}
+.poem-link:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.poem-link:visited{
+    color: #cf3144;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-left: 300px;
+}
+
+img {
+    border: 10px solid #09134a;
+}
+
+#img-link:hover{
+    border: 15px solid #09134a;
+}
+
+#first-bar {
+    margin-top: 4em;
+    padding: 1em;
+}
+
+/* menu */
+header{
+    position: fixed;
+    background-color: #09134a;
+    margin-top: 0;
+    width:99%;
+    height: 4em;
+    top: 0px;
+    font-family: Merriweather;
+    text-align: right;
+}
+
+/* Set the layout of the menu */
+.menu-item {
+    display: inline-block;
+    margin: 1em .2em;
+    background-color: #991717;
+    padding: 0.5em 0.5em;
+    border-radius: 1em;
+    min-width: 6em;
+    text-align: center;
+}
+
+.menu-item:hover{
+    background-color: rgb(31, 51, 141);
+    color:#333;
+}
+
+/* styling links */
+.menu-item a {
+    color:aliceblue; 
+    text-decoration: none;
+}
+
+/* dropdown */
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 0.5em 0 0 -1em;
+    color: #000;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 0em 0em 1em 1em;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a{
+    color:#000;
+}
+
+/* styling the dropdown item display */
+.dropdowm-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 6em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a{
+    color: white;
+    background-color: #991717;
+}
+
+#foundation:hover{
+    border-radius: 0em 0em 1em 1em;
+}
+.dropdown:hover {
+    border-radius: 1em 1em 0em 0em;
+}
+
+/* adding the site name styling */
+.site-name {
+    color: #991717;
+    float: left;
+    min-width: 6em;
+    padding: 0.5em 1em;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    margin: 1em .2em;
+}
+
