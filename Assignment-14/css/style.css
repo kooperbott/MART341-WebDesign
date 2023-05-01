@@ -1,0 +1,206 @@
+.site-name {
+    font-size: 15pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.titleBorder {
+    height: 200px;
+    background-image: url("../images/blue-background.jpeg");
+    color: rgb(1, 0, 11);
+    font-size: 10pt;
+    font-family: cursive;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(208, 226, 243);
+}
+
+.subtitle{
+    padding-top: 50px;
+    font-size: 75px;
+    margin: auto;
+}
+
+.image {
+    display: block;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+   
+img {
+    border: 10px solid #09134a;
+}
+
+.video {
+    border: 10px solid #09134a;
+    font-size: 18pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content-paragraph{
+    font-size: 20pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+.back-to-top {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+/* menu */
+header{
+    position: fixed;
+    background-color: #09134a;
+    width:99%;
+    height: 4em;
+    top: 0px;
+    font-family: Merriweather;
+    text-align: right;  
+}
+
+/* Set the layout of the menu */
+.menu-item {
+    display: inline-block;
+    margin: 1em .2em;
+    background-color: #82d6c4;
+    padding: 0.5em 0.5em;
+    border-radius: 1em;
+    min-width: 6em;
+    text-align: center;
+}
+
+.menu-item:hover{
+    background-color: rgb(31, 51, 141);
+    color:#333;
+}
+
+/* styling links */
+.menu-item a {
+    color:aliceblue; 
+    text-decoration: none;
+}
+
+/* dropdown */
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 0.5em 0 0 -1em;
+    color: #000;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 0em 0em 1em 1em;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a{
+    color:#000;
+}
+
+/* styling the dropdown item display */
+.dropdowm-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 6em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a{
+    color: white;
+    background-color: #82d6c4;
+}
+
+.dropdown:hover {
+    border-radius: 1em 1em 0em 0em;
+}
+
+/* adding the site name styling */
+.site-name {
+    color: #2aafb1;
+    float: left;
+    min-width: 6em;
+    padding: 0.5em 1em;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    margin: 1em .2em;
+}
+
+.dots {
+    display:inline-block;
+    height: 200px;
+    width: 200px;
+
+}
+
+.dot.one {
+    background-image: url("../images/Holly-profile.jpeg");
+}
+
+.dot.two {
+    background-image: url("../images/Moped-profile.jpeg");
+}
+
+.dot.three {
+    background-image: url("../images/Peppy-profile.jpeg");
+}
+
+/* Styling the contact page */ 
+.contact-body {
+    background-image: url("../images/blue-background.jpeg"); 
+    font-family:'Courier New', Courier, monospace 
+}
+
+.contact-text {
+    font-size: 15pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+.contact-img {
+    display: block;
+    margin-left: 1px;
+    margin-right: 1px;  
+    text-align: center;
+
+}
+
+
+/* styling testimonial page */ 
+
+.bryce {
+    display: inline-block;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+
+
+
+/* styling about page */
+.certifications {
+    display: inline-block;
+    margin-left: 1px;
+    margin-right: 1px;
+    height: 30px;
+    width: 30px;
+}
+
+.about-paragraph {
+    font-size: 10pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+
+}
