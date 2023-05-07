@@ -1,0 +1,194 @@
+/* styling homepage */ 
+
+.site-name {
+    font-size: 15pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.titleBorder {
+    height: 200px;
+    background-image: url("../images/blue-background.jpeg");
+    color: rgb(1, 0, 11);
+    font-size: 10pt;
+    font-family: cursive;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(208, 226, 243);
+}
+
+.subtitle{
+    padding-top: 50px;
+    font-size: 75px;
+    margin: auto;
+}
+
+.headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+img {
+    border: 10px solid #09134a;
+}
+
+.team-title {
+    text-align: center;
+    font-size: 15pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.home-video {
+    border: 10px solid #09134a;
+    font-size: 18pt;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.content-paragraph{
+    font-size: 20pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+.back-to-top {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15pt;
+    
+   
+}
+/* menu */
+header{
+    position: fixed;
+    background-color: #09134a;
+    width:99%;
+    height: 4em;
+    top: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;  
+}
+
+/* Set the layout of the menu */
+.menu-item {
+    display: inline-block;
+    margin: 1em .2em;
+    background-color: #82d6c4;
+    padding: 0.5em 0.5em;
+    border-radius: 1em;
+    min-width: 6em;
+    text-align: center;
+}
+
+.menu-item:hover{
+    background-color: rgb(31, 51, 141);
+    color:#333;
+}
+
+/* styling links */
+.menu-item a {
+    color:aliceblue; 
+    text-decoration: none;
+}
+
+
+/* styling the dropdown item display */
+.dropdowm-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 6em;
+}
+
+.dropdown-item:hover {
+    color: white;
+    background-color: #82d6c4;
+}
+
+
+
+/* adding the site name styling */
+.site-name {
+    color: #2aafb1;
+    float: left;
+    min-width: 6em;
+    padding: 0.5em 1em;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    margin: 1em .2em;
+}
+
+.team-images{
+    display: inline-block;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+/* Styling the contact page */ 
+.contact-body {
+    background-image: url("../images/blue-background.jpeg"); 
+    font-family:'Courier New', Courier, monospace 
+}
+
+.contact-text {
+    font-size: 15pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.contact-img {
+    display: block;
+    margin-left: 1px;
+    margin-right: 1px;  
+    text-align: center;
+
+}
+
+
+/* styling testimonial page */ 
+
+.testimonials-paragraph {
+    font-size: 12pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    text-align: center;
+}
+
+
+.bryce {
+    display: block;
+    text-align: center;
+}
+
+
+
+/* styling about page */
+.certifications {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.about-paragraph {
+    font-size: 14pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    text-align: center;
+}
+
+.about-video {
+    border: 10px solid #09134a;
+    font-size: 18pt;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center; 
+}
